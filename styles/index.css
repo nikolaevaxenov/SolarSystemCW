@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Vollkorn:wght@800&display=swap");
+
+/* Шрифт */
+p {
+  font-family: "Comfortaa", cursive;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Vollkorn", serif;
+}
+/* ---------------- */
+
+/* Отступы */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+/* ---------------- */
+
+/* Блок №1 */
+.p1 {
+  height: 100%;
+  background: #333533;
+  color: #fefae0;
+}
+
+.p1 p {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  text-indent: 50px;
+  margin: 5px;
+}
+
+.p1 table {
+  margin-top: 50px;
+}
+/* ---------------- */
+
+/* Блок №2 */
+.p2 {
+  height: 100%;
+  background: #ffe484;
+  color: #221300;
+}
+
+.p2 p {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  text-indent: 50px;
+  margin: 20px;
+}
+/* ---------------- */
+
+/* Блок №3 */
+.p3 {
+  height: 100%;
+  background: #3c4258;
+  color: #d1e5ff;
+  text-align: center;
+}
+
+.p3 .text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  text-indent: 50px;
+  margin: 5px;
+}
+
+.p3 table {
+  margin-right: 30px;
+}
+/* ---------------- */
+
+/* Блок №4 */
+.p4 {
+  height: 100%;
+  text-align: center;
+  background: #343e47;
+  color: #d8f3dc;
+}
+
+.p4 .text {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  text-indent: 50px;
+  margin: 20px;
+}
+
+.p4 table {
+  margin-left: 30px;
+}
+/* ---------------- */
+
+/* Блок №5 */
+.p5 {
+  height: 100%;
+  text-align: center;
+  background: #404436;
+  color: #d8f3dc;
+}
+
+.p5 .text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  text-indent: 50px;
+  margin: 5px;
+}
+
+.p5 table {
+  margin-right: 30px;
+}
+/* ---------------- */
+
+/* Блок №6 */
+.p6 {
+  height: 100%;
+  text-align: center;
+  background: #d39c7e;
+  color: #242423;
+}
+
+.p6 .text {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  text-indent: 50px;
+  margin: 20px;
+}
+
+.p6 table {
+  margin-left: 30px;
+}
+/* ---------------- */
+
+h1 {
+  margin: 0;
+  padding-top: 30px;
+  text-align: center;
+}
+
+table {
+  display: flex;
+  justify-content: space-evenly;
+  border-spacing: 10px;
+  margin: 0px auto;
+}
