@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg" href="images/icons/NAME.svg" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.css"
+    />
+    <link rel="stylesheet" href="styles/NAME.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.js"></script>
+    <script src="scripts/NAME.js"></script>
+    <title>NAME</title>
+  </head>
+  <body>
+    <div id="pagepiling">
+      <div class="section">
+        <div class="p1">
+          <div class="header"><h1></h1></div>
+          <div class="text">
+            <p>
+              
+            </p>
+          </div>
+
+          <div class="image">
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="p2">
+          <div class="header"><h1></h1></div>
+          <div class="image">
+          </div>
+          <div class="text">
+            <p>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="p3">
+          <div class="header"><h1></h1></div>
+
+          <div class="text">
+            <p></p>
+          </div>
+          <div class="image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

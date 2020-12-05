@@ -1,0 +1,11 @@
+mercury.html (done)
+venus.html (done)
+earth.html (done, without coloring)
+mars.html (done, without coloring)
+
+jupiter.html (done, without coloring)
+saturn.html (done, without coloring)
+uranus.html (done, without coloring)
+neptune.html (done, without coloring)
+
+pluto.html (done, without coloring)

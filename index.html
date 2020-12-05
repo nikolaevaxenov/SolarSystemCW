@@ -7,18 +7,30 @@
 
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/multi-level-push-menu/2.1.4/jquery.multilevelpushmenu.css"
     />
     <link rel="stylesheet" href="styles/index.css" />
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.js"></script>
-    <script src="scripts/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/multi-level-push-menu/2.1.4/jquery.multilevelpushmenu.min.js"></script>
+    <script type="module" src="scripts/menu.js"></script>
+    <script type="module" src="scripts/index.js"></script>
     <title>Солнечная система</title>
   </head>
   <body>
     <div id="pagepiling">
       <div class="section">
+        <span id="m1"></span>
         <div class="p1">
           <div class="header"><h1>Солнечная система</h1></div>
           <div class="text">
@@ -92,6 +104,7 @@
       </div>
 
       <div class="section">
+        <span id="m2"></span>
         <div class="p2">
           <div class="header"><h1>Солнце</h1></div>
           <div class="image">
@@ -169,6 +182,7 @@
       </div>
 
       <div class="section">
+        <span id="m3"></span>
         <div class="p3">
           <div class="header"><h1>Планеты земной группы</h1></div>
 
@@ -258,48 +272,41 @@
       </div>
 
       <div class="section">
+        <span id="m4"></span>
         <div class="p4">
           <div class="header"><h1>Пояс астероидов</h1></div>
           <div class="image">
-            <a href="ceresin.html"
-              ><img
-                src="images/ceresin.png"
-                alt="Церера"
-                width="150px"
-                height="150px"
-              />
-              <p>Церера</p></a
-            >
+            <img
+              src="images/ceres.png"
+              alt="Церера"
+              width="150px"
+              height="150px"
+            />
+            <p>Церера</p>
 
-            <a href="vesta.html"
-              ><img
-                src="images/vesta.png"
-                alt="Веста"
-                width="150px"
-                height="150px"
-              />
-              <p>Веста</p></a
-            >
+            <img
+              src="images/vesta.png"
+              alt="Веста"
+              width="150px"
+              height="150px"
+            />
+            <p>Веста</p>
 
-            <a href="pallas.html"
-              ><img
-                src="images/pallas.png"
-                alt="Паллада"
-                width="150px"
-                height="150px"
-              />
-              <p>Паллада</p></a
-            >
+            <img
+              src="images/pallas.png"
+              alt="Паллада"
+              width="150px"
+              height="150px"
+            />
+            <p>Паллада</p>
 
-            <a href="hygiea.html"
-              ><img
-                src="images/hygiea.png"
-                alt="Гигея"
-                width="150px"
-                height="150px"
-              />
-              <p>Гигея</p></a
-            >
+            <img
+              src="images/hygiea.png"
+              alt="Гигея"
+              width="150px"
+              height="150px"
+            />
+            <p>Гигея</p>
           </div>
           <div class="text">
             <p>
@@ -384,6 +391,7 @@
       </div>
 
       <div class="section">
+        <span id="m5"></span>
         <div class="p5">
           <div class="header"><h1>Планеты-гиганты</h1></div>
           <div class="text">
@@ -458,6 +466,7 @@
       </div>
 
       <div class="section">
+        <span id="m6"></span>
         <div class="p6">
           <div class="header"><h1>Пояс Койпера</h1></div>
           <div class="image">
@@ -471,25 +480,21 @@
               <p>Плутон</p></a
             >
 
-            <a href="haumea.html"
-              ><img
-                src="images/haumea.png"
-                alt="Хаумеа"
-                width="150px"
-                height="150px"
-              />
-              <p>Хаумеа</p></a
-            >
+            <img
+              src="images/haumea.png"
+              alt="Хаумеа"
+              width="150px"
+              height="150px"
+            />
+            <p>Хаумеа</p>
 
-            <a href="makemake.html"
-              ><img
-                src="images/makemake.png"
-                alt="Макемаке"
-                width="150px"
-                height="150px"
-              />
-              <p>Макемаке</p></a
-            >
+            <img
+              src="images/makemake.png"
+              alt="Макемаке"
+              width="150px"
+              height="150px"
+            />
+            <p>Макемаке</p>
           </div>
           <div class="text">
             <p>
