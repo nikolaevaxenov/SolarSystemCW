@@ -4,6 +4,11 @@ export const arrMenu = [
     icon: "fa fa-reorder",
     items: [
       {
+        name: "Солнечная система",
+        id: "itemID",
+        link: "index.html#solarsystem",
+      },
+      {
         name: "Солнце",
         id: "itemID",
         link: "index.html#sun",
