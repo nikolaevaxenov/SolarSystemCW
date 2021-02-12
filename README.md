@@ -26,4 +26,4 @@
 
 ---
 
-**Ссылка на сайт данной выполненной работы:** *https://frischmann.github.io/SolarSystemCW/*
+**Ссылка на сайт данной выполненной работы:** *https://nikolaevaxenov.github.io/SolarSystemCW/*
